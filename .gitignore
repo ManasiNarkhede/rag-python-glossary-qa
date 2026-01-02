@@ -1,0 +1,67 @@
+# Python / Virtual Environments
+venv/
+env/
+.venv/
+rag_env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python_history
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+secrets/
+*.key
+*.pem
+
+# ChromaDB persistent storage (large binary files, don't commit)
+glossary_db/
+chroma_db/
+chroma/
+
+# Hugging Face cache (model downloads)
+.cache/
+~/.cache/huggingface/
+sentence_transformers/
+
+# PyPDF2 / PDF files (optional – keep only source glossary if needed)
+*.pdf
+# Uncomment the line below if you don't want to commit the PDF (recommended for large files)
+# python_glossary.pdf
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+tmp/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build / Distribution
+dist/
+build/
+*.egg-info/
+*.dist-info/
+
+# Misc
+*.bak
+*.swp
+*~
+
+# Optional: If using python-dotenv and you have a sample env
+.env.example  # Keep this if you provide a template, otherwise ignore
