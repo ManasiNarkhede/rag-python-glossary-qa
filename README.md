@@ -258,6 +258,4 @@ Contributions are welcome! Feel free to:
 
 ---
 
-<p align="center">
-  Made with ❤️ for Python learners everywhere
-</p>
+
